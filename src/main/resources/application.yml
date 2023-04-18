@@ -1,0 +1,13 @@
+logging:
+  level:
+    root: debug
+
+server:
+  port: 8080
+
+spring:
+  ldap:
+    urls: ldap://127.0.0.1:389
+    base: dc=dev,dc=monayo,dc=com
+    username: cn=admin,dc=dev,dc=monayo,dc=com
+    password: admin
