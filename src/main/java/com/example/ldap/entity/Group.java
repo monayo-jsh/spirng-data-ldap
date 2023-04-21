@@ -32,4 +32,7 @@ public class Group {
     @Attribute(name = "member")
     private Set<Name> members = new HashSet<>();
 
+    @Attribute(name = "description")
+    private String description;
+
 }
